@@ -1,0 +1,346 @@
+{
+    "Array": {
+        "0": {
+            "Id": 0,
+            "Geo": {
+                "0": {
+                    "Id": 0,
+                    "Parent": 0,
+                    "GeoType": "rect",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "2 132 130 255"
+                        },
+                        {
+                            "Name": "rounding",
+                            "Value": "20"
+                        }
+                    ]
+                },
+                "1": {
+                    "Id": 1,
+                    "Parent": 0,
+                    "GeoType": "circle",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        }
+                    ]
+                },
+                "2": {
+                    "Id": 2,
+                    "Parent": 0,
+                    "GeoType": "text",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                },
+                "3": {
+                    "Id": 3,
+                    "Parent": 0,
+                    "GeoType": "text",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                }
+            },
+            "Animate_on": "left_to_right",
+            "Animate_cont": "",
+            "Animate_off": "left_to_right"
+        },
+        "1": {
+            "Id": 1,
+            "Geo": {
+                "0": {
+                    "Id": 0,
+                    "Parent": 0,
+                    "GeoType": "rect",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "5 68 94 255"
+                        },
+                        {
+                            "Name": "rounding",
+                            "Value": "10"
+                        }
+                    ]
+                },
+                "1": {
+                    "Id": 1,
+                    "Parent": 0,
+                    "GeoType": "circle",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        }
+                    ]
+                },
+                "10": {
+                    "Id": 10,
+                    "Parent": 8,
+                    "GeoType": "text",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                },
+                "2": {
+                    "Id": 2,
+                    "Parent": 0,
+                    "GeoType": "rect",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        }
+                    ]
+                },
+                "3": {
+                    "Id": 3,
+                    "Parent": 2,
+                    "GeoType": "text",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                },
+                "4": {
+                    "Id": 4,
+                    "Parent": 2,
+                    "GeoType": "text",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                },
+                "5": {
+                    "Id": 5,
+                    "Parent": 2,
+                    "GeoType": "rect",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        }
+                    ]
+                },
+                "6": {
+                    "Id": 6,
+                    "Parent": 5,
+                    "GeoType": "text",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                },
+                "7": {
+                    "Id": 7,
+                    "Parent": 5,
+                    "GeoType": "text",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                },
+                "8": {
+                    "Id": 8,
+                    "Parent": 5,
+                    "GeoType": "rect",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        }
+                    ]
+                },
+                "9": {
+                    "Id": 9,
+                    "Parent": 8,
+                    "GeoType": "text",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                }
+            },
+            "Animate_on": "left_to_right",
+            "Animate_cont": "clock_tick",
+            "Animate_off": "left_to_right"
+        },
+        "2": {
+            "Id": 2,
+            "Geo": {
+                "0": {
+                    "Id": 0,
+                    "Parent": 0,
+                    "GeoType": "circle",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        }
+                    ]
+                }
+            },
+            "Animate_on": "",
+            "Animate_cont": "",
+            "Animate_off": ""
+        },
+        "3": {
+            "Id": 3,
+            "Geo": {
+                "0": {
+                    "Id": 0,
+                    "Parent": 0,
+                    "GeoType": "rect",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "2 132 130 255"
+                        },
+                        {
+                            "Name": "rounding",
+                            "Value": "20"
+                        }
+                    ]
+                },
+                "1": {
+                    "Id": 1,
+                    "Parent": 0,
+                    "GeoType": "graph",
+                    "Attrs": [
+                        {
+                            "Name": "graph_type",
+                            "Value": "step"
+                        },
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        }
+                    ]
+                },
+                "2": {
+                    "Id": 2,
+                    "Parent": 0,
+                    "GeoType": "text",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                }
+            },
+            "Animate_on": "left_to_right",
+            "Animate_cont": "",
+            "Animate_off": "left_to_right"
+        },
+        "4": {
+            "Id": 4,
+            "Geo": {
+                "0": {
+                    "Id": 0,
+                    "Parent": 0,
+                    "GeoType": "rect",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "2 132 130 255"
+                        }
+                    ]
+                },
+                "1": {
+                    "Id": 1,
+                    "Parent": 0,
+                    "GeoType": "rect",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "5 68 94 255"
+                        },
+                        {
+                            "Name": "rounding",
+                            "Value": "50"
+                        }
+                    ]
+                },
+                "2": {
+                    "Id": 2,
+                    "Parent": 0,
+                    "GeoType": "text",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "255 255 255 255"
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                }
+            },
+            "Animate_on": "up",
+            "Animate_cont": "",
+            "Animate_off": "up"
+        }
+    }
+}
