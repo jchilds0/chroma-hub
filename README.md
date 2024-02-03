@@ -18,4 +18,4 @@ This is a personal project, not an application intended for production.
 
 [go]: https://github.com/golang/go
 [chroma-engine]: https://github.com/jchilds0/chroma-engine
-[chroma-hub]: https://github.com/jchilds0/chroma-hub
+[chroma-viz]: https://github.com/jchilds0/chroma-viz
