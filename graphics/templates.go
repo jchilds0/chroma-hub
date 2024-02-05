@@ -7,6 +7,8 @@ import (
 
 type Template struct {
     Id            int
+    Name          string
+    Layer         int
     Geo           map[int]*Geometry
     Animate_on    string
     Animate_cont  string
@@ -39,7 +41,8 @@ func (temp *Template) String() string {
         geometry = fmt.Sprintf("%s,%s", geometry, geo.String())
     }
     
-    return fmt.Sprintf("{'id': %d, 'num_geo': %d, 'geometry': [%s]}", temp.Id, len(temp.Geo), geometry);
+    return fmt.Sprintf("{'id': %d, 'name': '%s', 'layer': %d, 'num_geo': %d, 'geometry': [%s]}", 
+        temp.Id, temp.Name, temp.Layer, len(temp.Geo), geometry);
 }
 
 func (temp *Template) AddGeometry(geo_id, parent int, geo_type string) {

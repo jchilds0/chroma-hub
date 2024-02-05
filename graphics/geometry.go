@@ -6,8 +6,10 @@ import (
 
 type Geometry struct {
     Id          int
+    Name        string
     Parent      int
     GeoType     string 
+    PropType    string
     Attrs       []*Attr
 }
 
@@ -32,7 +34,8 @@ func (geo *Geometry) String() (str string) {
         attributes = fmt.Sprintf("%s,%s", attributes, attr.String())
     }
     
-    return fmt.Sprintf("{'id': %d, 'type': '%s', 'parent': %d, 'attr': [%s]}", geo.Id, geo.GeoType, geo.Parent, attributes);
+    return fmt.Sprintf("{'id': %d, 'name': '%s', 'geo_type': '%s', 'prop_type': '%s', 'parent': %d, 'attr': [%s]}", 
+        geo.Id, geo.Name, geo.GeoType, geo.PropType, geo.Parent, attributes);
 }
 
 func (geo *Geometry) AddAttr(name, value string) {

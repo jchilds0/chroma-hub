@@ -10,7 +10,6 @@
                     "Name": "Background",
                     "Parent": 0,
                     "GeoType": "rect",
-                    "PropType": "rect",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -27,7 +26,6 @@
                     "Name": "Circle",
                     "Parent": 0,
                     "GeoType": "circle",
-                    "PropType": "circle",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -40,7 +38,6 @@
                     "Name": "Title",
                     "Parent": 0,
                     "GeoType": "text",
-                    "PropType": "text",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -57,7 +54,6 @@
                     "Name": "Subtitle",
                     "Parent": 0,
                     "GeoType": "text",
-                    "PropType": "text",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -84,7 +80,6 @@
                     "Name": "Background",
                     "Parent": 0,
                     "GeoType": "rect",
-                    "PropType": "rect",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -101,7 +96,6 @@
                     "Name": "Circle",
                     "Parent": 0,
                     "GeoType": "circle",
-                    "PropType": "circle",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -111,10 +105,9 @@
                 },
                 "10": {
                     "Id": 10,
-                    "Name": "Period",
+                    "Name": "Clock",
                     "Parent": 8,
                     "GeoType": "text",
-                    "PropType": "text",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -131,7 +124,6 @@
                     "Name": "Left Split",
                     "Parent": 0,
                     "GeoType": "rect",
-                    "PropType": "rect",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -144,7 +136,6 @@
                     "Name": "Team 1",
                     "Parent": 2,
                     "GeoType": "text",
-                    "PropType": "text",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -161,7 +152,6 @@
                     "Name": "Score 1",
                     "Parent": 2,
                     "GeoType": "text",
-                    "PropType": "text",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -178,7 +168,6 @@
                     "Name": "Mid Split",
                     "Parent": 2,
                     "GeoType": "rect",
-                    "PropType": "rect",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -191,7 +180,6 @@
                     "Name": "Team 2",
                     "Parent": 5,
                     "GeoType": "text",
-                    "PropType": "text",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -208,7 +196,6 @@
                     "Name": "Score 2",
                     "Parent": 5,
                     "GeoType": "text",
-                    "PropType": "text",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -225,7 +212,6 @@
                     "Name": "Right Split",
                     "Parent": 5,
                     "GeoType": "rect",
-                    "PropType": "rect",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -235,10 +221,9 @@
                 },
                 "9": {
                     "Id": 9,
-                    "Name": "Clock",
+                    "Name": "Period",
                     "Parent": 8,
                     "GeoType": "text",
-                    "PropType": "clock",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -265,7 +250,6 @@
                     "Name": "Circle",
                     "Parent": 0,
                     "GeoType": "circle",
-                    "PropType": "circle",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -288,7 +272,6 @@
                     "Name": "Background",
                     "Parent": 0,
                     "GeoType": "rect",
-                    "PropType": "rect",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -305,7 +288,6 @@
                     "Name": "Graph",
                     "Parent": 0,
                     "GeoType": "graph",
-                    "PropType": "graph",
                     "Attrs": [
                         {
                             "Name": "graph_type",
@@ -322,7 +304,6 @@
                     "Name": "Title",
                     "Parent": 0,
                     "GeoType": "text",
-                    "PropType": "text",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -349,7 +330,6 @@
                     "Name": "Background",
                     "Parent": 0,
                     "GeoType": "rect",
-                    "PropType": "rect",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -362,7 +342,6 @@
                     "Name": "Box",
                     "Parent": 0,
                     "GeoType": "rect",
-                    "PropType": "rect",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -379,7 +358,6 @@
                     "Name": "Ticker",
                     "Parent": 0,
                     "GeoType": "text",
-                    "PropType": "ticker",
                     "Attrs": [
                         {
                             "Name": "color",

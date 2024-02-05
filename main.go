@@ -1,3 +1,10 @@
+/*
+
+   Format json archive - :%!python -m json.tool
+
+*/
+
+
 package main
 
 import (
