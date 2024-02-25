@@ -41,8 +41,8 @@ func (temp *Template) String() string {
         geometry = fmt.Sprintf("%s,%s", geometry, geo.String())
     }
     
-    return fmt.Sprintf("{'id': %d, 'name': '%s', 'layer': %d, 'num_geo': %d, 'geometry': [%s]}", 
-        temp.Id, temp.Name, temp.Layer, len(temp.Geo), geometry);
+    return fmt.Sprintf("{'id': %d, 'name': '%s', 'layer': %d, 'num_geo': %d, 'anim_on': '%s', 'anim_cont': '%s', 'anim_off': '%s', 'geometry': [%s]}", 
+        temp.Id, temp.Name, temp.Layer, len(temp.Geo), temp.Animate_on, temp.Animate_cont, temp.Animate_off, geometry);
 }
 
 func (temp *Template) AddGeometry(geo_id, parent int, geo_type string) {
