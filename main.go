@@ -20,6 +20,7 @@ import (
 
 var port = flag.Int("port", 9000, "graphics hub port")
 var fileName = flag.String("file", "", "graphics hub archive")
+var count = flag.Int("count", -1, "number of graphics hub requests to send (-1 for no upper limit)")
 var hub = db.NewDataBase()
 
 func main() {
@@ -29,6 +30,7 @@ func main() {
     if err != nil {
         log.Fatalf("Error creating server (%s)", err)
     }
+    defer ln.Close()
 
     if *fileName != "" {
         err = ImportArchive(*fileName)
@@ -37,13 +39,24 @@ func main() {
         }
     }
 
+    upperLimit := (*count != -1)
+    *count = 2 * (*count)
+
     for {
+        fmt.Printf("Count %d\n", *count)
+        if upperLimit && *count == 0 {
+            break
+        }
+
         conn, err := ln.Accept()
         if err != nil {
             log.Printf("Error accepting connection (%s)", err)
         }
 
         handleConnection(conn)
+        if upperLimit {
+            (*count)--
+        }
     }
 }
 
