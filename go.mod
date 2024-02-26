@@ -1,3 +1,3 @@
-module github.com/jchilds0/chroma-hub 
+module chroma-hub 
 
 go 1.21.6
