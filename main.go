@@ -8,7 +8,7 @@
 package main
 
 import (
-	"chroma-hub/db"
+    "github.com/jchilds0/chroma-hub/db"
 	"encoding/json"
 	"flag"
 	"fmt"

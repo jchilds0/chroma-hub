@@ -1,7 +1,7 @@
 package db
 
 import (
-	"chroma-hub/graphics"
+	"github.com/jchilds0/chroma-hub/graphics"
 	"fmt"
 	"log"
 )
