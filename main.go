@@ -26,25 +26,30 @@ var hub = db.NewDataBase()
 func main() {
     flag.Parse()
 
-    ln, err := net.Listen("tcp", ":" + strconv.Itoa(*port))
+    if *fileName == "" {
+        log.Fatal("Missing filename")
+    }
+
+    StartHub(*port, *count, *fileName)
+}
+
+func StartHub(port, count int, fileName string) {
+    ln, err := net.Listen("tcp", ":" + strconv.Itoa(port))
     if err != nil {
         log.Fatalf("Error creating server (%s)", err)
     }
     defer ln.Close()
 
-    if *fileName != "" {
-        err = ImportArchive(*fileName)
-        if err != nil {
-            log.Printf("Error importing archive (%s)", err)
-        }
+    err = ImportArchive(fileName)
+    if err != nil {
+        log.Printf("Error importing archive (%s)", err)
     }
 
-    upperLimit := (*count != -1)
-    *count = 2 * (*count)
+    upperLimit := (count != -1)
+    count = 2 * count
 
     for {
-        fmt.Printf("Count %d\n", *count)
-        if upperLimit && *count == 0 {
+        if upperLimit && count == 0 {
             break
         }
 
@@ -55,7 +60,7 @@ func main() {
 
         handleConnection(conn)
         if upperLimit {
-            (*count)--
+            count--
         }
     }
 }
