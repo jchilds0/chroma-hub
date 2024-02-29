@@ -39,6 +39,8 @@ func StartHub(port, count int, fileName string) {
         }
 
         handleConnection(conn)
+
+        log.Printf("Sent Hub to %s", conn.RemoteAddr())
         if upperLimit {
             count--
         }
@@ -73,7 +75,11 @@ func ImportArchive(fileName string) error {
         return err
     }
 
-    fmt.Printf("Imported Hub\n")
+    for _, temp := range hub.Array {
+        log.Printf("Loaded Template %d (%s)", temp.Id, temp.Name)
+    }
+
+    log.Printf("Imported Hub")
     return nil
 }
 

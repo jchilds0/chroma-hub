@@ -24,10 +24,10 @@
                 },
                 "1": {
                     "Id": 1,
-                    "Name": "Circle",
+                    "Name": "Logo",
                     "Parent": 0,
-                    "GeoType": "circle",
-                    "PropType": "circle",
+                    "GeoType": "image",
+                    "PropType": "image",
                     "Attrs": [
                         {
                             "Name": "color",
@@ -77,7 +77,7 @@
         "1": {
             "Id": 1,
             "Name": "Clock",
-            "Layer": 0,
+            "Layer": 2,
             "Geo": {
                 "0": {
                     "Id": 0,
@@ -342,7 +342,7 @@
         "4": {
             "Id": 4,
             "Name": "Ticker",
-            "Layer": 0,
+            "Layer": 1,
             "Geo": {
                 "0": {
                     "Id": 0,
@@ -395,6 +395,65 @@
             "Animate_on": "up",
             "Animate_cont": "",
             "Animate_off": "up"
+        },
+        "5": {
+            "Id": 5,
+            "Name": "Image",
+            "Layer": 0,
+            "Geo": {
+                "0": {
+                    "Id": 0,
+                    "Name": "Image",
+                    "Parent": 0,
+                    "GeoType": "image",
+                    "PropType": "image",
+                    "Attrs": [
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                }
+            },
+            "Animate_on": "",
+            "Animate_cont": "",
+            "Animate_off": ""
+        },
+        "6": {
+            "Id": 6,
+            "Name": "Video",
+            "Layer": 0,
+            "Geo": {
+                "0": {
+                    "Id": 0,
+                    "Name": "Background",
+                    "Parent": 0,
+                    "GeoType": "rect",
+                    "PropType": "rect",
+                    "Attrs": [
+                        {
+                            "Name": "color",
+                            "Value": "2 132 130 255"
+                        }
+                    ]
+                },
+                "1": {
+                    "Id": 1,
+                    "Name": "Video",
+                    "Parent": 0,
+                    "GeoType": "video",
+                    "PropType": "video",
+                    "Attrs": [
+                        {
+                            "Name": "scale",
+                            "Value": "1.0"
+                        }
+                    ]
+                }
+            },
+            "Animate_on": "left_to_right",
+            "Animate_cont": "",
+            "Animate_off": "left_to_right"
         }
     }
 }
