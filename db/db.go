@@ -42,13 +42,13 @@ func (db *DataBase) AddTemplate(id int, anim_on, anim_cont, anim_off string) {
     db.Array[id] = graphics.NewTemplate(id, anim_on, anim_cont, anim_off)
 }
 
-func (db *DataBase) AddGeometry(temp_id, geo_id, parent int, geo_type string) {
+func (db *DataBase) AddGeometry(temp_id, geo_id int, geo_type string) {
     if db.Array[temp_id] == nil {
         log.Printf("Template %d does not exist", temp_id)
     }
 
     temp := db.Array[temp_id]
-    temp.AddGeometry(geo_id, parent, geo_type)
+    temp.AddGeometry(geo_id, geo_type)
 }
 
 func (db *DataBase) AddAttr(temp_id, geo_id int, name, attr string) {

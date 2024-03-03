@@ -45,13 +45,13 @@ func (temp *Template) String() string {
         temp.Id, temp.Name, temp.Layer, len(temp.Geo), temp.Animate_on, temp.Animate_cont, temp.Animate_off, geometry);
 }
 
-func (temp *Template) AddGeometry(geo_id, parent int, geo_type string) {
+func (temp *Template) AddGeometry(geo_id int, geo_type string) {
     if temp.Geo[geo_id] != nil {
         log.Printf("Template %d already contains Geometry %d", temp.Id, geo_id)
         return
     }
 
-    temp.Geo[geo_id] = NewGeometry(geo_id, parent, geo_type)    
+    temp.Geo[geo_id] = NewGeometry(geo_id, geo_type)    
 }
 
 func (temp *Template) AddAttr(geo_id int, name, attr string) {

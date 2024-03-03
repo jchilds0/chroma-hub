@@ -11,16 +11,15 @@ import (
 	"github.com/jchilds0/chroma-hub/db"
 )
 
-var hub = db.NewDataBase()
-
 func StartHub(port, count int, fileName string) {
+    hub := db.NewDataBase()
     ln, err := net.Listen("tcp", ":" + strconv.Itoa(port))
     if err != nil {
         log.Fatalf("Error creating server (%s)", err)
     }
     defer ln.Close()
 
-    err = ImportArchive(fileName)
+    err = ImportArchive(hub, fileName)
     if err != nil {
         log.Printf("Error importing archive (%s)", err)
     }
@@ -38,7 +37,7 @@ func StartHub(port, count int, fileName string) {
             log.Printf("Error accepting connection (%s)", err)
         }
 
-        handleConnection(conn)
+        handleConnection(hub, conn)
 
         log.Printf("Sent Hub to %s", conn.RemoteAddr())
         if upperLimit {
@@ -57,14 +56,14 @@ func StartHub(port, count int, fileName string) {
 
  */
 
-func handleConnection(conn net.Conn) {
+func handleConnection(hub *db.DataBase, conn net.Conn) {
     _, err := conn.Write([]byte(hub.String()))
     if err != nil {
         log.Printf("Error sending hub (%s)", err)
     }
 }
 
-func ImportArchive(fileName string) error {
+func ImportArchive(hub *db.DataBase, fileName string) error {
     buf, err := os.ReadFile(fileName)
     if err != nil {
         return err
@@ -83,7 +82,7 @@ func ImportArchive(fileName string) error {
     return nil
 }
 
-func ExportArchive(fileName string) {
+func ExportArchive(hub *db.DataBase, fileName string) {
     file, err := os.Create(fileName)
     if err != nil {
         log.Fatalf("Couldn't open file (%s)", err)
