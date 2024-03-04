@@ -5,6 +5,7 @@ import "fmt"
 type Attr struct {
     Name    string 
     Value   string
+    Visible int
 }
 
 func NewAttr(name, value string) *Attr {
@@ -12,5 +13,5 @@ func NewAttr(name, value string) *Attr {
 }
 
 func (attr *Attr) String() string {
-    return fmt.Sprintf("{'name': '%s', 'value': '%s'}", attr.Name, attr.Value)
+    return fmt.Sprintf("{'name': '%s', 'value': '%s', 'visible': %d}", attr.Name, attr.Value, attr.Visible)
 }

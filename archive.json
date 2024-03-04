@@ -12,16 +12,39 @@
                     "PropType": "rect",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "width",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "height",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "2 132 130 255"
+                            "Value": "2 132 130 255",
+                            "Visible": 0
                         },
                         {
                             "Name": "rounding",
-                            "Value": "20"
+                            "Value": "20",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -32,12 +55,29 @@
                     "PropType": "image",
                     "Attrs": [
                         {
-                            "Name": "parent",
-                            "Value": "0"
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
                         },
                         {
-                            "Name": "color",
-                            "Value": "255 255 255 255"
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "parent",
+                            "Value": "0",
+                            "Visible": 0
+                        },
+                        {
+                            "Name": "scale",
+                            "Value": "1.0",
+                            "Visible": 1 
                         }
                     ]
                 },
@@ -48,16 +88,29 @@
                     "PropType": "text",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -68,16 +121,29 @@
                     "PropType": "text",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "",
+                            "Visible": 1
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 }
@@ -98,16 +164,39 @@
                     "PropType": "rect",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "width",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "height",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "5 68 94 255"
+                            "Value": "5 68 94 255",
+                            "Visible": 0
                         },
                         {
                             "Name": "rounding",
-                            "Value": "10"
+                            "Value": "10",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -118,12 +207,44 @@
                     "PropType": "circle",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "inner_radius",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "outer_radius",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "start_angle",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "end_angle",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -134,16 +255,29 @@
                     "PropType": "text",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "8"
+                            "Value": "8",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -154,12 +288,34 @@
                     "PropType": "rect",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "width",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "height",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -170,16 +326,29 @@
                     "PropType": "text",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "2"
+                            "Value": "2",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -190,16 +359,29 @@
                     "PropType": "text",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "2"
+                            "Value": "2",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -210,12 +392,34 @@
                     "PropType": "rect",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "width",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "height",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "2"
+                            "Value": "2",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -226,16 +430,29 @@
                     "PropType": "text",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "5"
+                            "Value": "5",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -246,16 +463,29 @@
                     "PropType": "text",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "5"
+                            "Value": "5",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -266,12 +496,34 @@
                     "PropType": "rect",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "width",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "height",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "5"
+                            "Value": "5",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -282,16 +534,29 @@
                     "PropType": "clock",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "8"
+                            "Value": "8",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 }
@@ -312,12 +577,44 @@
                     "PropType": "circle",
                     "Attrs": [
                         {
+                            "Name": "center_x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "center_y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "inner_radius",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "outer_radius",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "start_angle",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "end_angle",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 }
@@ -338,16 +635,39 @@
                     "PropType": "rect",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "width",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "height",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "2 132 130 255"
+                            "Value": "2 132 130 255",
+                            "Visible": 0
                         },
                         {
                             "Name": "rounding",
-                            "Value": "20"
+                            "Value": "20",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -358,16 +678,29 @@
                     "PropType": "graph",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "graph_type",
-                            "Value": "step"
+                            "Value": "step",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -378,16 +711,29 @@
                     "PropType": "text",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 }
@@ -408,12 +754,34 @@
                     "PropType": "rect",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "width",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "height",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "2 132 130 255"
+                            "Value": "2 132 130 255",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -424,16 +792,39 @@
                     "PropType": "rect",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "width",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "height",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "5 68 94 255"
+                            "Value": "5 68 94 255",
+                            "Visible": 0
                         },
                         {
                             "Name": "rounding",
-                            "Value": "50"
+                            "Value": "50",
+                            "Visible": 0
                         }
                     ]
                 },
@@ -444,16 +835,24 @@
                     "PropType": "ticker",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "color",
-                            "Value": "255 255 255 255"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "255 255 255 255",
+                            "Visible": 0
                         }
                     ]
                 }
@@ -474,12 +873,29 @@
                     "PropType": "image",
                     "Attrs": [
                         {
+                            "Name": "x",
+                            "Value": "0",
+                            "Visible": 1
+                        },
+                        {
+                            "Name": "y",
+                            "Value": "0",
+                            "Visible": 1 
+                        },
+                        {
+                            "Name": "string",
+                            "Value": "",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
-                            "Value": "0"
+                            "Value": "0",
+                            "Visible": 0
                         },
                         {
                             "Name": "scale",
-                            "Value": "1.0"
+                            "Value": "1.0",
+                            "Visible": 0
                         }
                     ]
                 }
@@ -487,48 +903,6 @@
             "Animate_on": "",
             "Animate_cont": "",
             "Animate_off": ""
-        },
-        "6": {
-            "Id": 6,
-            "Name": "Video",
-            "Layer": 0,
-            "Geo": {
-                "0": {
-                    "Id": 0,
-                    "Name": "Background",
-                    "GeoType": "rect",
-                    "PropType": "rect",
-                    "Attrs": [
-                        {
-                            "Name": "parent",
-                            "Value": "0"
-                        },
-                        {
-                            "Name": "color",
-                            "Value": "2 132 130 255"
-                        }
-                    ]
-                },
-                "1": {
-                    "Id": 1,
-                    "Name": "Video",
-                    "GeoType": "video",
-                    "PropType": "video",
-                    "Attrs": [
-                        {
-                            "Name": "parent",
-                            "Value": "0"
-                        },
-                        {
-                            "Name": "scale",
-                            "Value": "1.0"
-                        }
-                    ]
-                }
-            },
-            "Animate_on": "left_to_right",
-            "Animate_cont": "",
-            "Animate_off": "left_to_right"
         }
     }
 }

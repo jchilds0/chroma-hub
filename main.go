@@ -24,7 +24,6 @@ func main() {
         log.Fatal("Missing filename")
     }
 
-    chroma_hub.GenerateTemplateHub(map[string]int{"rect": 3, "circle": 1}, *fileName)
-    //chroma_hub.StartHub(*port, *count, *fileName)
+    chroma_hub.StartHub(*port, *count, *fileName)
 }
 
