@@ -845,6 +845,11 @@
                             "Visible": 1 
                         },
                         {
+                            "Name": "text",
+                            "Value": "",
+                            "Visible": 1 
+                        },
+                        {
                             "Name": "parent",
                             "Value": "0",
                             "Visible": 0
